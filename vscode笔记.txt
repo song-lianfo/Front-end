@@ -1,0 +1,6 @@
+VScode快捷键
+1、div*5 (系统自动写五个<div></div>)
+2、ctrl+shift+k(删除一整行)
+3、alt+shift+↑ (↓)  (复制一行)
+4、ctrl+enter(快速换行)
+5、../表示返回上一层目录
