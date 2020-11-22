@@ -1,19 +1,35 @@
 <!DOCTYPE html>
+<html style="background: gray;">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        #bottom{
+            height: 40px; line-height: 40px; text-align: center;
+        }
+        .nav{
+            text-decoration: none; color: black; margin:0 15px;
+        }
+        #banner{
+            width: 100%;
+        }
+    </style>
 </head>
-<body style="margin: 0;">
+<body>      <!--style="margin: 0;" -->
     <div id="banner">
         <img src="image/图片1.jpg" width="100%">
     </div>        
-    <div id="navigation" style="height: 40px; line-height: 40px; text-align: center;">
+    <div id="navigation" style="height: 40px; line-height: 40px; text-align: center;background-color: white;">
     <!--                         容器高度             列高             文字居中     -->
-        <a href="#">首页</a>
-        <a href="#">关于产品</a>
+        <a href="#" style="text-decoration: none; color: black; margin:0 15px;">首页</a>
+    <!--                   文本修饰      none表示无任何修饰                                               -->    
+        <a href="#" class="nav">关于产品</a>
         <a href="#">新闻事件</a>
     </div>        
-    <div id="bottom" style="height: 40px; line-height: 40px; text-align: center;">
+    <div id="bottom" style="">
         版权所有:XX公司
     </div>
 </body>

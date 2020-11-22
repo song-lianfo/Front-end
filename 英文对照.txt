@@ -1,0 +1,7 @@
+1、align:  .v 排整齐
+     text-align:  文字排列方式
+2、span:  .v 持续，贯穿
+ 	.n 跨度，范围，持续时间
+3、solid：实线
+     dashed: 虚线
+     dotted: 星罗棋布的，有斑点的
