@@ -5,3 +5,5 @@
 3、solid：实线
      dashed: 虚线
      dotted: 星罗棋布的，有斑点的
+4、margin： 边缘
+5、border： 边框

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            margin: 0; /*将所有元素边距都设置为0*/
+        }
+        .item{
+            width: 200px; height: 200px;
+            float: left;
+            margin: 50px;
+        }
+        #box1{
+            overflow: auto;
+            width: 900px;
+            margin: auto;/*仅对水平方向有效，需要根据div手动计算width的宽度*/
+        }
+    </style>
+</head>
+<body>
+    <div id="box1">
+        <div class="item" style="background-image: url(../num.jpg);"></div>
+        <div class="item" style="background-image: url(../xiye1.jpg);"></div>
+        <div class="item" style="background-image: url(../books.jpg);"></div>
+    </div>
+</body>
+</html>
